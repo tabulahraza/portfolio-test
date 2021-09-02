@@ -1,0 +1,851 @@
+html {   
+    background-color: #f59d63;
+    background-image: linear-gradient(180deg, #8EC5FC 10%, #E0C3FC 70%, #f59d63 110%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+
+nav {
+    display: inline;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+a:link { 
+    text-decoration: none;
+    color: white;
+}
+
+a :visited {
+    color: rgb(202, 155, 255);
+
+}
+
+a:hover{
+    color: rgb(255, 213, 241);
+
+}
+
+a:active {
+    color: rgb(184, 235, 255);
+
+}
+
+nav a {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+a button {
+	box-shadow: 3px 4px 16px -4px #ffa8db;
+	background-color:transparent;
+	border-radius:25px;
+	border:3px solid #ffffff;
+	display: inline;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+	cursor:pointer;
+	color:hsl(0, 0%, 100%);
+	font-family:Arial;
+	font-size: 20px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:1px 1px 3px #de89ff;
+}
+
+a button:hover {
+	background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+    opacity: 0.4;
+    transition-duration: 500ms;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    
+}
+a button:active {
+	position: relative;
+	top:1px;
+}
+
+
+ol, li {
+    align-self: center;
+    margin: center;
+}
+
+li {
+    list-style-type: none;
+    align-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-content: center;
+
+}
+
+.grid-container .grid-1 {
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+img {
+    background-position: center;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-bottom: 30px;
+    display: block;
+}
+
+
+.grid-1 .image1{
+    background-image: url(me_cartoon.png);
+    background-position: center;
+    
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 25px;
+}
+
+.grid-container .grid-2{
+    text-align: right;
+    justify-content: right;
+    align-content: center;
+    padding: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 27px;
+    color: white;
+}
+
+.grid-container .grid-3{
+    text-align: center;
+    justify-content: center;
+}
+
+.skills {
+    text-align: center;
+    text-indent: -30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    color: white;
+
+}
+
+.grid-container .grid-4 {
+    text-align: left;
+}
+
+.grid-4 .image2 {
+    background-image: url(me_cartoon_skills.png);
+    background-position: center;
+    
+}
+
+
+.grid-5 .image3 {
+    background-image: url(ducky_chill.png);
+    background-position: center;
+
+}
+
+.portfolio_button {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio_text {
+    text-align: left;
+    text-indent: 90px;
+}
+
+.small {
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/*Media Queries starts here*/
+
+
+
+/*For Smaller Phones 320px and up*/
+
+@media (min-width: 320px) { 
+    
+    html {   
+        background-color: #f59d63;
+        background-image: linear-gradient(180deg, #8EC5FC 10%, #E0C3FC 70%, #f59d63 110%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    body {
+        /*background-image: url(waterbub.png);*/
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        display: flexbox;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 25px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border: 3px solid #ffffff;
+        display: flexbox;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        color:hsl(0, 0%, 100%);
+        font-family:Arial;
+        font-size: 25px;
+        padding: 17px 31px;
+        text-decoration:none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    ol, li {
+        align-self: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 20px;
+        align-content: center;
+    
+    }
+
+    .grid-container .grid-1 {
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+        padding-bottom: 25px;
+    }
+    
+    .grid-container .grid-2{
+        text-align: right;
+        justify-content: right;
+        align-content: center;
+        padding: 30px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 27px;
+        color: white;
+    }
+    
+    .grid-container .grid-3{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .skills {
+        text-align: center;
+        text-indent: -1px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    
+    }
+    
+    .grid-container .grid-4 {
+        text-align: left;
+    }
+    
+    
+    .portfolio_button {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .portfolio_text {
+        text-align: center;
+        padding: 0%;
+        text-indent: 12px;
+
+    }
+    
+    .small {
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+/*For Medium-Size Phones 425px and up*/
+
+@media (min-width: 420px) {
+    
+    html {   
+        background-color: #f59d63;
+        background-image: linear-gradient(180deg, #8EC5FC 10%, #E0C3FC 70%, #f59d63 110%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        display: flexbox;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 25px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border: 3px solid #ffffff;
+        display: flexbox;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        color:hsl(0, 0%, 100%);
+        font-family:Arial;
+        font-size: 25px;
+        padding: 17px 31px;
+        text-decoration:none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    ol, li {
+        align-self: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 20px;
+        align-content: center;
+    
+    }
+
+    .grid-container .grid-1 {
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+        padding-bottom: 25px;
+    }
+    
+    .grid-container .grid-2{
+        text-align: right;
+        justify-content: right;
+        align-content: center;
+        padding: 30px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 27px;
+        color: white;
+    }
+    
+    .grid-container .grid-3{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .skills {
+        text-align: center;
+        text-indent: -1px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    
+    }
+    
+    .grid-container .grid-4 {
+        text-align: left;
+    }
+    
+    
+    .portfolio_button {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .portfolio_text {
+        text-align: center;
+        padding: 0%;
+        text-indent: 12px;
+
+    }
+    
+    .small {
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+
+/*For Tablets 768px and up*/
+
+@media (min-width: 768px) {
+    html {   
+        background-color: #f59d63;
+        background-image: linear-gradient(180deg, #8EC5FC 10%, #E0C3FC 70%, #f59d63 110%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    nav {
+        display: flexbox;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 25px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border: 3px solid #ffffff;
+        display: flexbox;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        color:hsl(0, 0%, 100%);
+        font-family:Arial;
+        font-size: 25px;
+        padding: 17px 31px;
+        text-decoration:none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    ol, li {
+        align-self: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 20px;
+        align-content: center;
+    
+    }
+
+    .grid-container .grid-1 {
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+    
+    img {
+        display: none;
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+        padding-bottom: 25px;
+    }
+    
+    .grid-container .grid-2{
+        text-align: right;
+        justify-content: right;
+        align-content: center;
+        padding: 30px;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 27px;
+        color: white;
+    }
+    
+    .grid-container .grid-3{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .skills {
+        text-align: center;
+        text-indent: -1px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    
+    }
+    
+    .grid-container .grid-4 {
+        text-align: left;
+    }
+    
+    
+    .portfolio_button {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .portfolio_text {
+        text-align: center;
+        padding: 0%;
+        text-indent: 12px;
+
+    }
+    
+    .small {
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    html {   
+        background-color: #f59d63;
+        background-image: linear-gradient(180deg, #8EC5FC 10%, #E0C3FC 70%, #f59d63 110%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+        
+    }
+    
+    nav {
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius:25px;
+        border:3px solid #ffffff;
+        display: inline;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor:pointer;
+        color:hsl(0, 0%, 100%);
+        font-family:Arial;
+        font-size: 20px;
+        padding:17px 31px;
+        text-decoration:none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    a button:hover {
+        background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+        opacity: 0.4;
+        transition-duration: 500ms;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    a button:active {
+        position: relative;
+        top:1px;
+    }
+    
+    ol, li {
+        align-self: center;
+        margin: center;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-content: center;
+    
+    }
+    
+    .grid-container .grid-1 {
+        margin: 10px;
+        padding-bottom: 15px;
+    }
+    
+    img {
+        background-position: center;
+        background-size: 100%;
+        width: 490px;
+        height: auto;
+        margin: auto;
+        padding-top: 30px;
+        display: block;
+    }
+    
+    
+    .grid-1 .image1{
+        background-image: url(me_cartoon.png);
+        background-position: center;
+        
+    }
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+        padding-bottom: 25px;
+    }
+    
+    .grid-container .grid-2{
+        text-align: right;
+        justify-content: right;
+        align-content: center;
+        padding: 30px;
+    }
+    
+    p {
+        text-align: left;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 27px;
+        color: white;
+    }
+    
+    .grid-container .grid-3{
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .skills {
+        text-align: center;
+        text-indent: -30px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 1.8;
+        color: white;
+    
+    }
+    
+    .grid-container .grid-4 {
+        text-align: left;
+    }
+    
+    .grid-4 .image2 {
+        background-image: url(me_cartoon_skills.png);
+        background-position: center;
+        
+    }
+    
+    .grid-5 .image3 {
+        background-image: url(ducky_chill.png);
+        background-position: center;
+    
+    }
+    
+    .portfolio_button {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .portfolio_text {
+        text-align: left;
+        text-indent: 143px;
+    }
+    
+    .small {
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+}

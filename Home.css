@@ -1,0 +1,460 @@
+html {
+    background-color: #8EC5FC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: abosolute;
+    background-image: url('vines_1.png');
+
+}
+
+
+body {
+    /*background-image: url(waterbub.png);*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a:link { 
+    text-decoration: none;
+    color: white;
+}
+
+a :visited {
+    color: rgb(202, 155, 255);
+
+}
+
+a:hover{
+    color: rgb(255, 213, 241);
+
+}
+
+a:active {
+    color: rgb(184, 235, 255);
+
+}
+
+nav {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+
+a button {
+	box-shadow: 3px 4px 16px -4px #ffa8db;
+	background-color:transparent;
+	border-radius:25px;
+	border:3px solid #ffffff;
+	display:block;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+	cursor:pointer;
+	color:hsl(0, 0%, 100%);
+	font-family:Arial;
+	font-size: 45px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:1px 1px 3px #de89ff;
+}
+
+button:hover {
+	background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+    opacity: 0.4;
+    transition-duration: 500ms;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    
+}
+button:active {
+	position: relative;
+	top:1px;
+}
+
+
+ol, li {
+    align-self: center;
+    margin: center;
+}
+
+li {
+    list-style-type: none;
+    align-content: center;
+
+    
+}
+
+section, p {
+    text-align: center;
+    color: white;
+    text-indent: 30px;
+}
+
+.credit {
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+/*Media Queries starts here*/
+
+
+
+/*For Smaller Phones 320px and up*/
+
+@media (min-width: 320px) { 
+    html {
+    background-image: none;
+    }
+    
+
+    .body {
+        text-align: center;
+    }
+
+    nav {
+        font-size: 15px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        margin-top: 80px;
+        padding: 10px;
+        justify-content: space-evenly;
+        
+    }
+    
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border:3px solid #ffffff;
+        display: block;
+        align-self: center;
+        align-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        cursor:pointer;
+        color:hsl(0, 0%, 100%);
+        font-family :Arial;
+        font-size: 25px;
+        padding: 18px 30px;
+        text-decoration: none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    button:hover {
+        background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+        opacity: 0.4;
+        transition-duration: 500ms;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    button:active {
+        position: relative;
+        top:1px;
+    }
+    
+    
+    ol, li {
+        align-self: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center; 
+    }
+    
+    section, p {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        white-space: break-spaces;
+    }
+    
+    .credit {
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+}
+
+/*For Medium-Size Phones 425px and up*/
+
+@media (min-width: 420px) {
+    html {
+        background-image: none;
+        }
+    
+    .body {
+        text-align: center;
+    }
+
+    nav {
+        font-size: 25px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        margin-top: 80px;
+        padding: 10px;
+        justify-content: space-evenly;
+        
+    }
+    
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border:3px solid #ffffff;
+        display: block;
+        align-self: center;
+        align-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        cursor:pointer;
+        color:hsl(0, 0%, 100%);
+        font-family :Arial;
+        font-size: 30px;
+        padding: 20px 32px;
+        text-decoration: none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    button:hover {
+        background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+        opacity: 0.4;
+        transition-duration: 500ms;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    button:active {
+        position: relative;
+        top:1px;
+    }
+    
+    
+    ol, li {
+        align-self: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center; 
+    }
+    
+    section, p {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        white-space: break-spaces;
+    }
+    
+    .credit {
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+}
+
+/*For Tablets 768px and up*/
+
+@media (min-width: 768px) {
+    html {
+        background-color: #8EC5FC;
+        background-size: cover;
+        height: 650px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('vines_2.png');
+        }
+    
+    .body {
+    background-size: stetch;
+    background-position: center;
+    text-align: center;
+    }
+
+    nav {
+        font-size: 25px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        margin-top: 80px;
+        padding: 10px;
+        justify-content: space-evenly;
+        
+    }
+    
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border:3px solid #ffffff;
+        display: block;
+        align-self: center;
+        align-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        cursor:pointer;
+        color:hsl(0, 0%, 100%);
+        font-family :Arial;
+        font-size: 30px;
+        padding: 20px 32px;
+        text-decoration: none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    button:hover {
+        background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+        opacity: 0.4;
+        transition-duration: 500ms;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    button:active {
+        position: relative;
+        top:1px;
+    }
+    
+    
+    ol, li {
+        align-self: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center; 
+    }
+    
+    section, p {
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        white-space: break-spaces;
+    }
+    
+    .credit {
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    html {
+        background-image: url('vines_2.png');
+        background-size: cover;
+        }
+    
+    .body {
+    background-size: stetch;
+    background-position: center;
+    text-align: center;
+    }
+
+    nav {
+        font-size: 30px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        margin-top: 80px;
+        padding: 10px;
+        justify-content: space-evenly;
+        
+    }
+    
+    a button {
+        box-shadow: 3px 4px 16px -4px #ffa8db;
+        background-color:transparent;
+        border-radius: 25px;
+        border:3px solid #ffffff;
+        display: block;
+        align-self: center;
+        align-content: center;
+        margin: auto;
+        margin-bottom: 30px;
+        cursor:pointer;
+        color:hsl(0, 0%, 100%);
+        font-family :Arial;
+        font-size: 35px;
+        padding: 25px 35px;
+        text-decoration: none;
+        text-shadow:1px 1px 3px #de89ff;
+    }
+    
+    button:hover {
+        background-color: linear-gradient(180deg, #8EC5FC 30%, #E0C3FC 65%, #f8ffd9 95%);
+        opacity: 0.4;
+        transition-duration: 500ms;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    button:active {
+        position: relative;
+        top:1px;
+    }
+    
+    
+    ol, li {
+        align-self: center;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
+    li {
+        list-style-type: none;
+        align-content: center; 
+    }
+    
+    section, p {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        white-space: break-spaces;
+    }
+    
+    .credit {
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    
+    }
